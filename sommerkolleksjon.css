@@ -17,10 +17,10 @@
     font-family: 'Cookie', cursive;
     font-size: 100px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-text-align: center;
+    text-align: center;
 }
 
-.kolleksjonen{
+.kolleksjonen {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
