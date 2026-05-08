@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+header {
+    height: 100px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(251, 232, 200);
+    height: 100px;
+}
+
+nav .logo {
+    width: 350px;
+}
+ 
+
+nav .logo.en {
+    display: block;
+}
+
+.logo.to {
+    display: none;
+
+}
+
+nav .menu {
+    display: flex;
+    gap: 40px;
+    padding: 0 40px;
+    font-size: 20px;
+    color: rgb(130, 128, 121);
+}
+
+.menu i:hover {
+    color: black;
+    cursor: pointer;
+
+}
+
+footer {
+    height: 50vh;
+    background-color: rgb(251, 232, 200);
+}
+
+.foot {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    gap: 200px;
+    text-align: center;
+
+}
+
+.foot > div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.kunde{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+footer h2 {
+    font-family: 'Quicksand', sans-serif;;
+    padding-bottom: 35px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    
+}   
+
+.media{
+    gap: 20px;
+    text-align: center;
+}

@@ -1,0 +1,28 @@
+.sommer {
+    height: 75vh;
+    background-image: url(bilder/sommerkolleksjon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sommer h1 {
+    font-size: 50px;
+    color: lightgoldenrodyellow;
+    margin-bottom: 20px;
+    font-family: 'Cookie', cursive;
+    font-size: 100px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+text-align: center;
+}
+
+.kolleksjonen{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
